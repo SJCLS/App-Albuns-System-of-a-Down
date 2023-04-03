@@ -1,9 +1,9 @@
 package com.example.ac1_p2.model;
 
 public class Album {
-    private String  banda;
+    private String banda;
     private int ano;
-    private  String saibaMais;
+    private String saibaMais;
     private String fotografo;
     private int image;
 

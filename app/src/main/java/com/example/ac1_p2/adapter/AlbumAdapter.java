@@ -15,7 +15,8 @@ import java.util.List;
 public class AlbumAdapter extends RecyclerView.Adapter<AlbumHolder> {
 
     private List<Album> albuns;
-    public AlbumAdapter(List<Album> album){
+
+    public AlbumAdapter(List<Album> album) {
         this.albuns = album;
     }
 
@@ -43,20 +44,4 @@ public class AlbumAdapter extends RecyclerView.Adapter<AlbumHolder> {
         return albuns == null ? 0 : albuns.size();
     }
 }
-    /*
 
-    private void removerItem(int position) {
-        pessoas.remove(position);
-        notifyItemRemoved(position);
-        notifyItemRangeChanged(position,pessoas.size());
-    }
-    public void adicionarItem(Pessoa pessoa){
-        PessoaDataset.addPessoa(pessoa);
-        notifyItemInserted(getItemCount());
-    }
-
-    @Override
-    public int getItemCount() {
-        return pessoas == null ? 0 : pessoas.size();
-    }
-}*/

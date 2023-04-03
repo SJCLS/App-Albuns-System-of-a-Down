@@ -30,21 +30,11 @@ public class AlbumHolder extends RecyclerView.ViewHolder {
     public TextView getTxtBanda() {
         return txtBanda;
     }
-
     public ImageView getImageView() {
         return imgBanda;
     }
-    public TextView getTxtFotografo(){
-        return txtFotografo;
-
-    }
-    public TextView getTxtAnoAlbun(){
-        return txtAnoAlbun;
-
-    }
-    public Button getSaibaMais(){
-        return saibaMais;
-
-    }
+    public TextView getTxtFotografo(){return txtFotografo;}
+    public TextView getTxtAnoAlbun(){return txtAnoAlbun;}
+    public Button getSaibaMais(){return saibaMais;}
 
 }
