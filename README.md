@@ -4,7 +4,6 @@
 	<ul>
 		<li>Android Studio</li>
 		<li>Java</li>
-		<li>XML</li>
 	</ul>
   <h2>Pré-requisitos</h2>
 	<ul>
@@ -28,5 +27,3 @@
 	</ul>
 	<h2>Contribuições</h2>
 	<p>Contribuições são bem-vindas! Sinta-se à vontade para fazer um fork deste repositório e enviar suas modificações através de um pull request. Se você encontrar algum problema ou tiver alguma sugestão, abra uma issue e teremos prazer em ajudar.</p>
-	<h2>Autor</h2>
-	<p>Este projeto foi criado por [Samuel Jonathan] como parte da avaliação da AC1-P2 da disciplina de Desenvolvimento Mobile.</p>
